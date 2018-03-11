@@ -244,8 +244,7 @@ function genTernaryExp (el) {
 
 genOnce函数：
 
-我们讨论的是直接子节点的复用问题，v-if是在根节点上，不存在parent，并且不再v-for中，也没有绑定key值，
-因此会执行到genStatic函数。
+我们讨论的是直接子节点的复用问题，v-if是在根节点上，不存在parent，并且不再v-for中，也没有绑定key值，因此会执行到genStatic函数。
 
 ```
 // v-once
